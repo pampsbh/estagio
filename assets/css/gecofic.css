@@ -1,0 +1,164 @@
+#calendario
+{
+    width: 100%;
+    margin-right: 30px;
+    font-family: "Open Sans";
+}
+#calendario TABLE
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+TD.calendar-day
+{
+    font-size: 11pt;
+    position: relative;
+    vertical-align: top;
+    height: 60px;
+}
+TD.calendar-day:hover
+{
+    background: url(#);
+}
+TD.calendar-day-np
+{
+    background: #F0FEFC;
+    min-height: 80px;
+}
+TD.calendar-day-head
+{
+    background: #ECEFF5;
+    color: #2E6589;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #C7D9E7;
+}
+DIV.day-number
+{
+    color: #2E6589;
+    text-align: right;
+}
+TD.calendar-day, TD.calendar-day-np
+{
+    padding: 5px;
+    border: 1px solid #C7D9E7;
+}
+TR.calendar-header
+{
+    color: #4383B4;
+    font-size: 24pt;
+    text-align: center;
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+#lista_profissionais
+{
+    /*[empty]color:;*/
+    /*+placement:shift 0px 0px;*/
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.icon-move
+{
+    /*+placement:float-left 0px 0px;*/
+    float: left;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    padding: 0 5px 0 0;
+}
+#listagem
+{
+    margin: 38px 0 0 0px;
+}
+#listagem LI
+{
+    padding: 0 0 5px;
+}
+#btns
+{
+    text-align: center;
+}
+.infobox
+{
+    width: 250px;
+}
+.infobox:hover
+{
+    background-color: #EEEEEE;
+}
+.infobox-container .table THEAD > TR > TH, .table TBODY > TR > TH, .table TFOOT > TR > TH, .table THEAD > TR > TD, .table TBODY > TR > TD, .table TFOOT > TR > TD
+{
+    font-size: 12px;
+}
+.div-calendario
+{
+    padding: 5px 10px;
+    line-height: normal;
+}
+TD DIV.c-nao-pode
+{
+    background-color: #C7D9E7;
+}
+TD .turno
+{
+    min-height: 40px;
+    border: 1px dashed #C7D9E7;
+    margin-top: 3px;
+    padding: 3px 6px;
+}
+
+TD .turno > div {
+    font-size: 60%;        
+}
+
+TD .turno > div icon {
+    font-size: 100%;       
+}
+
+TD .turno > div > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+TD .turno H6
+{
+    margin: 0 0 3px;
+    font-size: 60%;
+    color: #4383B4;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#overload {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 99999;
+}
+
+#overload img {
+
+    position: absolute;
+    display: block;
+    width: 128px;
+    height: 128px;
+    left: 50%;
+    top: 50%;
+    margin-top: -64px;
+    margin-left: -64px;
+
+}
+
+.widget-main.no-padding .table, .widget-main.padding-0 .table {
+    text-align: center;
+}
+
+.table.table-bordered thead tr th {
+    text-align: center;
+}
